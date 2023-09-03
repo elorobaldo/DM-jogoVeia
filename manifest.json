@@ -1,0 +1,16 @@
+{
+    "name": "dm-pratic-app",
+    "short_name": "Pratic",
+    "icons":[
+        {
+            "src": "img/nutri.jpg",
+            "sizes": "256x256",
+            "type": "image/jpg"
+        }
+    ],
+    "lang": "pt-BR",
+    "start-url": "/index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white"
+}

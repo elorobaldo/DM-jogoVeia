@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <title>Meu Jogo da Velha</title>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="white" />
+    <meta name="description" content="jogo da velha"/>
+</head>
+
+<body class="fullscreen">
+
+      <h1>Jogo da Velha</h1>
+      <h2>Jogue com seu amigo(a):</h2>
+
+      <br/>
+      <br/>
+
+    <table>
+
+      <tr>
+      <td align="center" valign="middle" id="b11" class="bla" onclick="jogo(this.id);verifica();"></td>
+      <td align="center" valign="middle" id="b12" class="bla" onclick="jogo(this.id);verifica();"></td>
+      <td align="center" valign="middle" id="b13" class="bla" onclick="jogo(this.id);verifica();"></td>
+      </tr>
+      
+      <tr>
+      <td align="center" valign="middle" id="b21" class="bla" onclick="jogo(this.id);verifica();"></td>
+      <td align="center" valign="middle" id="b22" class="bla" onclick="jogo(this.id);verifica();"></td>
+      <td align="center" valign="middle" id="b23" class="bla" onclick="jogo(this.id);verifica();"></td>
+      </tr>
+      
+      <tr>
+      <td align="center" valign="middle" id="b31" class="bla" onclick="jogo(this.id);verifica();"></td>
+      <td align="center" valign="middle" id="b32" class="bla" onclick="jogo(this.id);verifica();"></td>
+      <td align="center" valign="middle" id="b33" class="bla" onclick="jogo(this.id);verifica();"></td>
+      </tr>
+      
+      </table>
+
+      <div class="bo">
+      <br><input type="button" class="btn" name="limpar" value="Novo jogo" onclick="novo();" />
+      </div>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
